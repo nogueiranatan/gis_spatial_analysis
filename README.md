@@ -4,7 +4,7 @@ Welcome to my GIS portfolio showcasing spatial analysis projects using QGIS, Exc
 
 ## 📌 Projects
 
-### 🗺️ US Median Household Income Choropleth Analysis
+### 1. 🗺️ US Median Household Income Choropleth Analysis
 
 - County-level income distribution across the United States
 
