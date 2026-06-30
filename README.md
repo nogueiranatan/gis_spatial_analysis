@@ -1,0 +1,19 @@
+# Nate's GIS Spatial Analysis Portfolio
+
+Welcome to my GIS portfolio showcasing spatial analysis projects using QGIS, Excel. and geospatial datasets.
+
+## 📌 Projects
+
+### 🗺️ US Median Household Income Choropleth Analysis
+
+- County-level income distribution across the United States
+
+- Tools: QGIS, Excel
+
+- [View Project](choropleth/README.md)
+
+### 🌡️ (Future Project)
+
+- Description here
+
+---
