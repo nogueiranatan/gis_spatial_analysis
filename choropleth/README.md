@@ -1,6 +1,6 @@
 # Natan's GIS Spatial Analysis Portfolio
 
-## Choropleth Map - Median Household Income by County (USA)
+## Choropleth Map
 
 ![Choropleth map](Choropleth_Medianhouseholdincome.png)
 
