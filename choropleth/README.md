@@ -2,7 +2,7 @@
 
 ## Choropleth Map
 
-![Choropleth map](Choropleth_Medianhouseholdincome.png)
+![Choropleth map](Medianhouseholdincome.png)
 
 ### Objective
 
