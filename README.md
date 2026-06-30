@@ -1,4 +1,4 @@
-# GIS Spatial Analysis Portfolio
+# Natan's GIS Spatial Analysis Portfolio
 
 ## 🗺️ Income Inequality Map (USA)
 
