@@ -1,6 +1,4 @@
-# Natan's GIS Spatial Analysis Portfolio
-
-## Choropleth Map
+# Choropleth Map
 
 ![outputs](outputs/Medianhouseholdincome.png)
 
