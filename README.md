@@ -10,7 +10,7 @@ Welcome to my GIS portfolio showcasing spatial analysis projects using QGIS, Exc
 
 - Tools: QGIS, Excel
 
-- [View Project](choropleth/README.md)
+- [View Project](US_income_choropleth/README.md)
 
 ### 🌡️ (Future Project)
 
