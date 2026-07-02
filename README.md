@@ -22,4 +22,4 @@ A cartographic representation of UK's general election results by seats won in e
 **Tools:** QGIS  
 **Key methods:** Categorized Symbology (party classification), Filters (London region), Sorting (descending seats won), Inset map, Map Overview, Callout Annotation (linking London region to inset map)
 
-- [View Project](US_income_choropleth/README.md)
+- [View Project](UK_election_map/README.md)
