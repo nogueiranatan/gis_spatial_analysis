@@ -1,32 +1,29 @@
-# Election Map - Constituencies won by parties
+# UK Election Results by Constituency (2019)
 
 ![outputs](outputs/uk_election_map.png)
 
 ### Objective
 
-Process geospatial data to illustrate parliamentary seats won in the UK's general election 2019 per party per constituency. 
+Visualise UK Parliamentary constituency-level results from the 2019 General Election, showing the winning party in each constituency.
 
 ### Data
-
-
+Office for National Statistics (ONS, 2019)
 
 ### Methods
 
-Symbology categorization:
-- Classify geospatial data by Political Party with most seats won.
-
-Attribute filtering: 
-- Performed an attribute join between county-level income data (xls) and county boundary polygons (gpkg) using common geographic identifiers.
-
 Data classification: 
-- Choropleth classification (natural breaks), separated by US$ 10,000 increments (excluding first and last tiers). 
+- Applied categorical symbology to classify constituencies by winning political party
+- Created a filtered duplicate layer for the Greater London region
+- Ranked parties based on constituency win counts
 
 Print layout:
-- Addition of two inset maps in addition to continental U.S. to improve visibility of the states of Hawaii and Alaska.
-- Alteration of Coordinate Reference Systems (CRS) for the additional two maps to improve projection (EPSG: 3338 / ESRI: 102007)
-
+- Added inset map to highlight Greater London at higher resolution
+- Included map overview frame for spatial context
+- Used callout annotations to link main map to inset focus area
+  
 ### Key Findings
 
-- Clear spatial clustering of high-income areas in coastal cities
-- Lower-income counties were more prevalent in parts of the Southeast and interior regions.
-- MAUP (Modifiable Areal Unit Problem) is a limitation. Economic data is susceptible to discrepancies depending on definition of county boundaries.
+- The Conservative Party shows widespread constituency dominance across England and parts of Wales, while the SNP dominates constituencies in Scotland, reflecting strong regional political clustering.
+- Labour support is more geographically concentrated in urban areas, but less spatially dominant overall compared to Conservative and SNP strongholds.
+- Limitation: the map shows only winning party per constituency and does not represent vote share or margin of victory, limiting deeper interpretation of electoral strength.
+  
