@@ -16,7 +16,7 @@ A county-level analysis of median household income across the United States usin
 
 ---
 
-### 2. UK General Electoral Map
+### 2. 🇬🇧 UK General Electoral Map
 A cartographic representation of UK's general election results by seats won in each constituency.
 
 **Tools:** QGIS  
