@@ -16,5 +16,10 @@ A county-level analysis of median household income across the United States usin
 
 ---
 
-### 🌡️ Future Project
-Coming soon — additional spatial analysis work exploring environmental or socio-economic datasets.
+### 2. UK General Electoral Map
+A cartographic representation of UK's general election results by seats won in each constituency.
+
+**Tools:** QGIS  
+**Key methods:** Categorized Symbology (party classification), Filters (London region), Sorting (descending seats won), Inset map, Map Overview, Callout Annotation (linking London region to inset map)
+
+- [View Project](US_income_choropleth/README.md)
