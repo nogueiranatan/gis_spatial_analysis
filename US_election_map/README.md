@@ -6,7 +6,7 @@
 Develop a county-level choropleth map of the 2020 US Presidential Election that visualises both the winning political party and the strength of each county’s majority vote. The map uses expression-driven opacity to encode vote-share percentage, allowing areas with stronger electoral majorities to appear more visually prominent.
 
 ### Data
-MIT Election Data and Science Lab (MEDSL)
+MIT Election Data and Science Lab (MEDSL)  
 US county boundary shapefiles
 
 ### Methods
@@ -14,7 +14,7 @@ US county boundary shapefiles
 Data preparation:
 - Joined county-level election results to county boundary polygons using a common identifier.
 - Verified attribute integrity prior to visualisation.
-- 
+  
 Data classification: 
 - Symbology categorization: Classified counties by winning political party using the QGIS Expression Builder.
 CASE
