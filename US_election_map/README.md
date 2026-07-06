@@ -1,30 +1,54 @@
-# US Election Results by County (2020)
+# US Presidential Election Results by County (2020)
 
 ![outputs](outputs/us_election_2020.png)
 
 ### Objective
-
-Visualise UK Parliamentary constituency-level results from the 2019 General Election, showing the winning party in each constituency.
+Develop a county-level choropleth map of the 2020 US Presidential Election that visualises both the winning political party and the strength of each county’s majority vote. The map uses expression-driven opacity to encode vote-share percentage, allowing areas with stronger electoral majorities to appear more visually prominent.
 
 ### Data
-Office for National Statistics (ONS, 2019)
+MIT Election Data and Science Lab (MEDSL)
+US county boundary shapefiles
 
 ### Methods
 
+Data preparation:
+- Joined county-level election results to county boundary polygons using a common identifier.
+- Verified attribute integrity prior to visualisation.
+- 
 Data classification: 
-- Applied categorical symbology to classify constituencies by winning political party
-- Created a filtered duplicate layer for the Greater London region
-- Ranked parties based on constituency win counts
+- Symbology categorization: Classified counties by winning political party using the QGIS Expression Builder.
+CASE
+WHEN "per_gop" >  "per_dem" THEN 'R'
+WHEN "per_dem" > "per_gop" THEN 'D' 
+END
+- Applied categorical symbology using red (Republican) and blue (Democratic).
+- Created an expression-driven opacity field so counties with larger winning vote percentages appear darker, while more competitive counties appear lighter.
+CASE
+WHEN "per_dem" > "per_gop" THEN "per_dem" *100	
+WHEN "per_gop" > "per_dem" THEN "per_gop" *100
+END
 
 Print layout:
-- Added inset map to highlight Greater London at higher resolution
-- Included map overview frame for spatial context
-- Used callout annotations to link main map to inset focus area
-  
+- Created a custom opacity legend to communicate vote-share intensity, where darker colours indicate larger winning margins and lighter colours indicate closer contests.
+- Applied consistent typography, legend hierarchy and map composition to improve readability.
+-   
 ### Key Findings
 
-- The Conservative Party shows widespread constituency dominance across England and parts of Wales, while the SNP dominates constituencies in Scotland, reflecting strong regional political clustering.
-- Labour support is more geographically concentrated in urban areas, but less spatially dominant overall compared to Conservative and SNP strongholds.
-- Limitation: the map shows only winning party per constituency and does not represent vote share or margin of victory, limiting deeper interpretation of electoral strength.
-  
+- Democratic-majority counties are concentrated along the West Coast, the Northeast, and around major metropolitan areas.
+- Republican-majority counties occupy a much larger geographic area, particularly across rural regions of the United States.
+- Opacity successfully communicates the strength of electoral support, distinguishing strong partisan counties from more competitive areas.
+- Limitations: The map illustrates spatial voting patterns rather than population distribution. Because counties vary greatly in population, geographic area should not be interpreted as representing the number of votes cast.
+
+### Skills Demonstrated
+
+* QGIS
+* Spatial data integration
+* Attribute joins
+* Expression Builder
+* Rule-based symbology
+* Expression-driven opacity
+* Choropleth cartography
+* Print Layout design
+* Cartographic communication
+* Data visualisation
 
