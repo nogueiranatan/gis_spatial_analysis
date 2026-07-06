@@ -1,4 +1,4 @@
-# US Presidential Election Results by County (2020)
+# US Presidential Election - Bivariate (Opacity-driven) Choropleth Map
 
 ![outputs](outputs/us_election_2020.png)
 
