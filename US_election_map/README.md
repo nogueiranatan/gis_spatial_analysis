@@ -31,7 +31,7 @@ END
 Print layout:
 - Created a custom opacity legend to communicate vote-share intensity, where darker colours indicate larger winning margins and lighter colours indicate closer contests.
 - Applied consistent typography, legend hierarchy and map composition to improve readability.
--   
+  
 ### Key Findings
 
 - Democratic-majority counties are concentrated along the West Coast, the Northeast, and around major metropolitan areas.
