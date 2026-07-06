@@ -9,7 +9,7 @@ Welcome to my GIS portfolio showcasing geospatial analysis projects using QGIS, 
 ### 1. 🇺🇸 US Presidential Election Bivariate Choropleth Analysis (2020)
 A county-level electoral map visualising both the winning political party and the strength of each county’s majority vote using expression-driven opacity.
 
-**Tools:** QGIS, Excel
+**Tools:** QGIS, Excel  
 **Key methods:** Attribute joins, Expression Builder, categorized symbology, expression-driven opacity, custom legend design, cartographic communication
 
 - [View Project](US_election_map/README.md)
