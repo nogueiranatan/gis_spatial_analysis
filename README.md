@@ -16,7 +16,7 @@ A GIS-based vulnerability model assessing how landscape characteristics influenc
 
 ---
 
-### 1. 🇺🇸 US Presidential Election - Bivariate Choropleth Analysis
+### 🇺🇸 US Presidential Election - Bivariate Choropleth Analysis
 A county-level electoral map visualising both the winning political party and the strength of each county’s majority vote using expression-driven opacity.
 
 **Tools:** QGIS, Excel  
@@ -26,7 +26,7 @@ A county-level electoral map visualising both the winning political party and th
 
 ---
 
-### 2. 🗺️ US Median Household Income - Choropleth Analysis
+### 🗺️ US Median Household Income - Choropleth Analysis
 A county-level analysis of median household income across the United States using QGIS.
 
 **Tools:** QGIS, Excel  
@@ -36,7 +36,7 @@ A county-level analysis of median household income across the United States usin
 
 ---
 
-### 3. 🇬🇧 UK General Electoral Map - Categorised Symbology & Callout Annotation
+### 🇬🇧 UK General Electoral Map - Categorised Symbology & Callout Annotation
 A cartographic representation of UK's general election results by seats won in each constituency.
 
 **Tools:** QGIS  
