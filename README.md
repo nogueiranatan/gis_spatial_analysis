@@ -7,7 +7,7 @@ Welcome to my GIS portfolio showcasing geospatial analysis projects using QGIS, 
 ## 📌 Projects
 
 ### 🔥 Gold Coast Hinterland Bushfire Vulnerability Assessment
-A GIS-based vulnerability model assessing how landscape characteristics influence bushfire vulnerability across the Gold Coast Hinterland. The project integrates vegetation fuel, slope, historical fire behaviour, and fire recurrence into a standardised spatial decision-support framework.
+A GIS-based vulnerability model assessing how landscape characteristics influence bushfire vulnerability across the Gold Coast Hinterland. The project integrates vegetation fuel, slope, historical fire behaviour, and fire recurrence into a standardised decision-making framework.
 
 **Tools:** QGIS  
 **Key methods:** Multi-Criteria Evaluation (MCE), raster analysis, spatial aggregation, attribute joins, reclassification, weighted overlay modelling, vulnerability mapping, cartographic communication
