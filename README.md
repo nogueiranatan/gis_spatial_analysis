@@ -10,7 +10,7 @@ Welcome to my GIS portfolio showcasing geospatial analysis projects using QGIS, 
 
 A GIS-based spatial and temporal analysis of citizen science biodiversity observations (iNaturalist app) collected during BioBlitz events. The project examines observation hotspots, participant sampling patterns, and the distribution of threatened species to support biodiversity monitoring and future event planning.
 
-**Tools:** QGIS, Excel  
+**Tools:** QGIS, Excel, iNaturalist
 
 **Key methods:** Spatial joins, grid-based aggregation, heat mapping, temporal analysis, species filtering, cartographic communication
 
