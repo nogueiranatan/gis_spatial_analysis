@@ -6,6 +6,16 @@ Welcome to my GIS portfolio showcasing geospatial analysis projects using QGIS, 
 
 ## 📌 Projects
 
+### 🌿 BioBlitz Biodiversity Spatial Analysis
+
+A GIS-based spatial and temporal analysis of citizen science biodiversity observations (iNaturalist app) collected during BioBlitz events. The project examines observation hotspots, participant sampling patterns, and the distribution of threatened species to support biodiversity monitoring and future event planning.
+
+**Tools:** QGIS, Excel  
+
+**Key methods:** Spatial joins, grid-based aggregation, heat mapping, temporal analysis, species filtering, cartographic communication
+
+- [View Project](BioBlitz_spatial_analysis/README.md)
+
 ### 🔥 Gold Coast Hinterland Bushfire Vulnerability Assessment
 A GIS-based vulnerability model assessing how landscape characteristics influence bushfire vulnerability across the Gold Coast Hinterland. The project integrates vegetation fuel, slope, historical fire behaviour, and fire recurrence into a standardised decision-making framework.
 
