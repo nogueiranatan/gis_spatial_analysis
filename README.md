@@ -16,6 +16,8 @@ A GIS-based spatial and temporal analysis of citizen science biodiversity observ
 
 - [View Project](BioBlitz_spatial_analysis/README.md)
 
+---
+
 ### 🔥 Gold Coast Hinterland Bushfire Vulnerability Assessment
 A GIS-based vulnerability model assessing how landscape characteristics influence bushfire vulnerability across the Gold Coast Hinterland. The project integrates vegetation fuel, slope, historical fire behaviour, and fire recurrence into a standardised decision-making framework.
 
