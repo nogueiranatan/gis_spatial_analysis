@@ -18,7 +18,7 @@ A GIS-based spatial and temporal analysis of citizen science biodiversity observ
 
 ---
 
-### 🔥 Gold Coast Hinterland Bushfire Vulnerability Assessment
+### 🔥 Gold Coast Equal-Weighted Multi-Criteria Bushfire Vulnerability Assessment
 A GIS-based vulnerability model assessing how landscape characteristics influence bushfire vulnerability across the Gold Coast Hinterland. The project integrates vegetation fuel, slope, historical fire behaviour, and fire recurrence into a standardised decision-making framework.
 
 **Tools:** QGIS  
