@@ -1,6 +1,6 @@
 # 🌿 BioBlitz Biodiversity Spatial Analysis
 
-![BioBlitz Heatmap](outputs/ongoing.png)
+![BioBlitz Heatmap](outputs/KDE_heatmap.png)
 
 ## Project Overview
 
