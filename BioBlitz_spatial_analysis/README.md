@@ -30,13 +30,6 @@ The analysis is conducted using observations from the Griffith University Nathan
 
 ## Data
 
-| Dataset | Source |
-
-|---------|--------|
-
-| iNaturalist observations | iNaturalist export |
-
-| Observation points | Imported into QGIS |
 
 ---
 
