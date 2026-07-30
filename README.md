@@ -15,6 +15,7 @@ A GIS-based spatial and temporal analysis of citizen science biodiversity observ
 **Key methods:** Spatial joins, grid-based aggregation, heat mapping, temporal analysis, species filtering, cartographic communication
 
 - [View Project](BioBlitz_spatial_analysis/README.md)
+- [View Live Map (Leaflet)](Live_map/index.html)
 
 ---
 
