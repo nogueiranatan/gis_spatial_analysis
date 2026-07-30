@@ -30,51 +30,29 @@ The analysis is conducted using observations from the Griffith University Nathan
 
 ## Data
 
+Biodiversity observation records were sourced from iNaturalist for the Griffith University Nathan Campus study area. The dataset consists of georeferenced citizen science observations collected during BioBlitz events.
 
 ---
 
 ## Methodology
 
-### 1. Import Biodiversity Observations
+Observation records from iNaturalist were imported into QGIS as georeferenced point data for the Griffith University Nathan Campus study area.
 
-Observation records were extracted from iNaturalist for the Griffith University Nathan Campus study area and imported into QGIS as a point layer.
+Kernel Density Estimation (KDE) was used to create a continuous heatmap surface showing areas of higher and lower observation density. The resulting raster was styled with a colour gradient to highlight biodiversity observation hotspots across the campus.
 
----
-
-### 2. Create Analysis Grid
-
-A fishnet grid with a spatial resolution of **25 × 25 metres** was generated to divide the study area into equal-sized analysis units.
-
----
-
-### 3. Aggregate Observations
-
-The **Join Attributes by Location (Summary)** tool was used to count the number of observation points (FIDs) intersecting each grid cell.
-
-This produced an observation count for every grid cell, allowing observation density to be compared across the campus.
-
----
-
-### 4. Create Observation Density Map
-
-Graduated symbology was applied to the observation count field to visualise observation density.
-
-Higher observation counts were represented using darker colours, producing a heatmap that highlights biodiversity observation hotspots across the campus.
+The KDE heatmap was then interpreted to assess spatial patterns in citizen science recording activity and support future BioBlitz survey planning.
 
 ---
 
 ## Results
 
-The resulting heatmap reveals areas where citizen scientists recorded the greatest number of biodiversity observations, providing an initial assessment of sampling intensity across the campus.
+The resulting KDE heatmap reveals areas where citizen scientists recorded the greatest concentration of biodiversity observations, providing an initial assessment of sampling intensity across the campus.
 
 This map forms the foundation for future analyses, including:
 
 - Temporal distribution of observations
-
 - Threatened species mapping
-
 - BioBlitz versus non-BioBlitz observations
-
 - Participant contribution analysis
 
 ---
@@ -82,22 +60,21 @@ This map forms the foundation for future analyses, including:
 ## Skills Demonstrated
 
 - GIS data management
-
-- Vector spatial analysis
-
-- Fishnet/grid creation
-
-- Spatial joins
-
-- Summary statistics
-
+- Point-based spatial analysis
+- Kernel Density Estimation (KDE)
+- Raster heatmap generation
+- Spatial pattern interpretation
 - Heatmap visualisation
-
 - Cartographic design
-
 - QGIS workflow development
 
 ---
+
+## Software
+
+- QGIS
+- iNaturalist
+- Excel
 
 ## Software
 
